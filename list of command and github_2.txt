@@ -1,0 +1,51 @@
+<-- change the file name inside
+
+
+git status
+git add nian.txt
+git status
+
+  <--   modified file name
+git diff
+
+
+ <./  - mean delete file ,+ add new file
+
+git diff --staged
+git diff --cached
+
+
+<--how to remove file from github
+
+git rm file.txt
+git status
+
+
+<--rename file
+
+git status
+git add nijan.txt
+gut rm nijan.txt
+git status
+git mv nijan.txt nijan1.txt
+
+
+change file 4900 to 8994
+
+git diff
+git add .
+
+
+importtant command
+
+- + S (minus and capital S)
+
+and q
+
+q
+
+git diff --color-word contact.html
+
+
+
+git commit -am "hihih hhih ihih"

@@ -1,0 +1,92 @@
+git diff --color-words nijan..branch
+
+git diff --color-words nijan..branch^
+
+
+git branch --merge
+
+---------------
+pwd
+git branch
+git diff master..nijan
+
+git branch -m nijan nijan1
+--------------------delete branch -------
+
+
+
+
+pwd
+git branch
+git branch -d branch
+
+--------------------
+
+
+git commit -am "ddd"
+
+
+------ conform delete ---
+
+git branch
+git branch -D nijan
+
+
+-------------------
+
+pwd
+git branch
+git diff master..nijan
+git checkout master
+git merge nijan
+git diff master..nijan
+
+------------------
+---ff merge and real merge
+
+ 
+
+
+pwd
+git log nijan --oneline -3
+git log master --oneline -3
+
+
+git merge --no-ff branch
+git merge --ff-only branch
+
+
+-----non ff merge----------
+
+git status
+git add nijan.html
+git log --oneline -
+git merge  nijan
+
+
+------edit master and nijan ----
+
+<-- edit index.html with master and nijan
+
+pwd
+git branch
+git checkout -b nijan
+< edit inde.html
+git commit -am "nijan"
+git checkout master
+git commit -am "replace double quotes"
+
+git log nijan --oneline
+git merge nijan
+
+--resolved merge complex-------------------------
+
+important
+
+--------------------
+
+
+
+
+
+

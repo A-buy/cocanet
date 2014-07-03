@@ -1,0 +1,104 @@
+<--how to rename file 
+
+git mv f/nijan.html f/ssd.html
+
+
+<--how to add folder inside file
+
+
+git add tour/*
+
+
+
+<--undo change 
+
+git checkout -- filename.txt
+
+
+
+<--how to change after commit command
+
+git reset HEAD filename.html
+
+git commit --amend -m "rearrange file"
+
+
+git checkout 29349488595 -- aaa.txt
+
+git diff --staged
+
+
+<--- how to edit inside commit
+
+git revert 3r3r3r3r3r3re
+
+<-- how to change shai 843ru43hrui438r4 -> ebugyrhu4br4 master 
+
+cat .git/Head
+cat .git/refs/heads/master
+git reset --soft 4r389r3yu4r8r84r8y
+git reset --mixed 343ru3r8uy38rh88
+git reset --hard 848983944huhr
+
+<-- how to clean the working directory
+
+
+git clean -f
+git clean -n
+
+
+<-- how to ignore root directory
+<-- create .gitignore file
+
+tempfile.txt
+.Ds_stored
+*.zip
+*.gz
+log/*.l
+jj/ll
+http://help.github/article/ignore-file
+
+
+
+git config --global core.excludesfile ~/.gitignore_global
+git rm --cached filename.txt
+
+
+touch assets/pdfs/.gitkeep
+
+
+<-- tree finder
+
+git ls-tree HEAD
+git ls-tree master
+
+<-- tree find inside directory
+git ls-tree master folder/
+
+
+ls-tree master^ folder/
+
+
+git log --oneline
+git log --oneline -4
+git log --oneline -5
+git log --since="2014-06-09"
+git log --untill="2014-06-09"
+git log --author="nijan"
+git log --grep="temp"
+git log 645th6huih5t..fddfdf
+git log 4r443r.. filename.txt
+
+git log -p
+
+git log -p 4r443r.. filename.txt
+
+git log --stat --summary
+
+
+git log --format=oneline
+git log --oneline=short
+git log --oneline=mediam
+git log --oneline=full
+git log --graph
+

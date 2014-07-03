@@ -1,0 +1,76 @@
+ branch
+
+ pwd
+ git branch
+ cat .git/HEAD
+ ls -la .git/refs/heads
+ cat -la .git/refs/heads/master
+
+ git log --oneline
+
+ <-- create branch
+
+ git branch new(branch name)
+ git branch
+
+ cat .git/HEAD
+ ls -la .git/refs/heads
+ cat -la .git/refs/heads/new
+
+
+ git branch
+ cat .git/HEAD
+ 
+ <--switch branch
+
+ git checkout new
+cat .git/HEAD
+git commit -am "modified"
+git log --oneline
+
+git checkout master
+git branch
+
+git log --online
+
+
+git branch
+git log --oneline
+git show HEAD
+
+
+pwd
+git branch
+git log --oneline
+
+<-- create branch and switch
+
+git checkout -b branchname
+git branch
+git log --graph --oneline --decorate --all
+
+
+-----------------
+git checkout nijan
+
+change file name
+
+git checkout master
+
+git commit -am "change the file name"
+
+git checkout master
+
+
+--------------------
+
+pwd
+git branch
+
+
+
+git  diff master..nijan
+git diff nian..newbranch
+
+
+

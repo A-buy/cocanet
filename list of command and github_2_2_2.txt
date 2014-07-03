@@ -1,0 +1,34 @@
+git log --oneline --graph --all --decorate
+
+
+git log --oneline
+git show fmejrjfimn
+
+git show --format=oneline HEAD
+
+git show --format=oneline HEAD^
+git is-tree master
+git show 89hhy989
+
+
+compare commit
+
+git log --oneline
+git diff 434r43r
+git diff 434r43r home.html
+
+git log --oneline
+git diff 334r34dfr edf3443
+git diff 43r43r43..43r34r4r index.html
+
+git diff 34e34e43..HEAD
+git diff 34e34e43..HEAD^
+git diff --ignore-space-change er43r43r..HEAD
+git diff --ignore-space-change er43r43r..HEAD
+git diff -w er43r43r..HEAD
+git diff -p er43r43r..HEAD
+
+
+
+
+git diff --stat --summary weew3e2..HEAD
